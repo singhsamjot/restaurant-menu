@@ -1,0 +1,36 @@
+{
+  "name": "restaurant-menu",
+  "version": "1.0.0",
+  "description": "API to provide menu details for a restaurant",
+  "main": "index.ts",
+  "repository": "https://github.com/Lanatus-Systems/restaurant-menu.git",
+  "author": "Dhruv Vanparia",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "pretty": "prettier src --write"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.3",
+    "apollo-server-express": "^3.12.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-resolvers": "^4.0.1",
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.8.2",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "*"
+  }
+}
