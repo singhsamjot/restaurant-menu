@@ -1,12 +1,12 @@
 # restaurant-menu
 
-This is a demo project build with NodeJs and GraphQL providing API to get the restaurant menu.
+This is a demo project built with NodeJs and GraphQL providing API to get the restaurant menu.
 
 ---
 
 ## Requirements
 
-For development, you will nodeJs version 16.19.0 and yarn installed in your local environment.
+For development, you will need nodeJs version 16.19.0 and yarn installed on your local environment.
 
 ---
 
